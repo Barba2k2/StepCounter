@@ -6,7 +6,7 @@ import RingProgess from './src/components/RingProgess';
 export default function App() {
   return (
     <View style={styles.container}>
-      <RingProgess progress={0.56}/>
+      <RingProgess progress={0.8} />
 
       <View style={styles.values}>
         <Value label='Passos' value='1219' />
@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
   },
   values: {
     flexDirection: 'row',
-    rowGap: 50,
+    rowGap: 25,
     flexWrap: 'wrap',
-    marginVertical: 20,
+    marginTop: 100,
   },
 });
